@@ -50,8 +50,7 @@ void turn(Player player,int board[SIZE],int min,int max) {
     char choice;
     int ind;
     int move = 0;
-    Pchoice indexMin,indexMax;
-    indexMin = static_cast<min>(int);
+    char indexMin = static_cast<int>(min);
 
     
     cout << "player name: " << player.name << endl;
